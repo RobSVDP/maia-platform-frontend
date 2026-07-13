@@ -407,7 +407,6 @@ export const Header: React.FC = () => {
                 */}
               </div>
             </div>
-            
             <Link href="/analysis" className="uppercase">
               Analysis
             </Link>
