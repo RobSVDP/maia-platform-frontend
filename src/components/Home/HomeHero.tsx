@@ -182,6 +182,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
                 seeing chess.
               </motion.p>
             </div>
+            {/*
             {!user?.lichessId && (
               <motion.div className="flex flex-wrap items-center gap-3 sm:gap-3">
                 <p className="text-sm tracking-wider text-white/80">
@@ -202,7 +203,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
                   <span className="text-sm font-medium text-white/90 transition-colors duration-200 group-hover:text-white">
                     Lichess
                   </span>
-                </motion.button>
+                </motion.button> */}
                 {/* <motion.button
                   className="group flex items-center gap-2.5 rounded-md border border-glass-border bg-white/5 px-3 py-2 backdrop-blur-sm transition-all duration-200 hover:border-white/20 hover:bg-white/10"
                   onClick={() => {
@@ -225,8 +226,8 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
           <div className="grid w-full flex-1 grid-cols-1 gap-2 md:grid-cols-3 md:gap-4">
             <FeatureCard
               icon="chess_knight"
-              title="Play Maia"
-              description="Play chess against the human-like Maia engine"
+              title="Play Gwammy"
+              description="Play chess against Gwammy"
               onClick={() => startGame('againstMaia')}
               index={0}
               featureKey="play_maia"
@@ -234,7 +235,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             <FeatureCard
               icon="network_intelligence"
               title="Analysis"
-              description="Analyze games with Maia's human insights"
+              description="Analyse games to understand them better"
               href="/analysis"
               index={1}
               featureKey="analysis"
@@ -242,7 +243,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             <FeatureCard
               icon="toys_and_games"
               title="Puzzles"
-              description="Improve your skills with Maia's training puzzles"
+              description="Improve your skills with chess puzzles!"
               href="/puzzles"
               index={2}
               featureKey="puzzles"
@@ -250,7 +251,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             <FeatureCard
               icon="network_intel_node"
               title="Hand & Brain"
-              description="Play a collaborative chess variant with Maia"
+              description="Play a collaborative chess variant with Gwammy"
               onClick={() => startGame('handAndBrain')}
               index={3}
               featureKey="hand_brain"
@@ -258,15 +259,15 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             <FeatureCard
               icon="play_lesson"
               title="Drill"
-              description="Learn and practice chess openings with Maia"
+              description="Learn and practice chess openings with Gwammy"
               href="/drills"
               index={4}
               featureKey="openings"
             />
             <FeatureCard
               icon="mystery"
-              title="Bot or Not"
-              description="Distinguish between human and AI play"
+              title="Robot or Not?"
+              description="Can you tell which player is secretly a robot?"
               href="/turing"
               index={5}
               featureKey="bot_or_not"
