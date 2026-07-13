@@ -148,7 +148,7 @@ export const Header: React.FC = () => {
             height={40}
             alt="Maia Logo"
           />
-          <h2 className="text-2xl font-bold">Maia Chess</h2>
+          <h2 className="text-2xl font-bold">Play Chess</h2>
         </Link>
         <div className="hidden flex-row items-center gap-1 text-sm tracking-wider md:flex">
           <div
@@ -182,7 +182,7 @@ export const Header: React.FC = () => {
                       onClick={() => startGame('againstMaia')}
                       className="flex w-full items-center justify-start px-3 py-2 text-sm text-primary transition-colors hover:bg-glass"
                     >
-                      Play Maia
+                      Play Chess
                     </button>
                     <button
                       onClick={() => startGame('handAndBrain')}
@@ -190,6 +190,7 @@ export const Header: React.FC = () => {
                     >
                       Play Hand and Brain
                     </button>
+                    {/*
                     <a
                       className="flex w-full items-center justify-start px-3 py-2 text-sm text-primary transition-colors hover:bg-glass"
                       href="https://lichess.org/@/maia1"
@@ -198,6 +199,7 @@ export const Header: React.FC = () => {
                     >
                       Play Maia on Lichess
                     </a>
+                    */}
                   </div>
                 </motion.div>
               )}
@@ -227,6 +229,7 @@ export const Header: React.FC = () => {
           >
             BOT-OR-NOT
           </Link>
+          {/*
           {!isCompactDesktopNav && (
             <Link
               href="/broadcast"
@@ -234,7 +237,7 @@ export const Header: React.FC = () => {
             >
               BROADCASTS
             </Link>
-          )}
+          )}*/}
           <div
             className="relative"
             onMouseEnter={() => setShowMoreDropdown(true)}
@@ -260,7 +263,8 @@ export const Header: React.FC = () => {
                   className="absolute left-0 top-[100%] z-30 w-32 overflow-hidden rounded-md border border-glass-border bg-backdrop"
                 >
                   <div className="divide-y divide-glass-border tracking-wide">
-                    {isCompactDesktopNav && (
+                    {/* {isCompactDesktopNav && (
+
                       <Link
                         href="/broadcast"
                         className={`flex w-full items-center justify-start px-3 py-2 text-sm transition-colors hover:bg-glass ${
@@ -287,7 +291,7 @@ export const Header: React.FC = () => {
                       className="flex w-full items-center justify-start px-3 py-2 text-sm text-white/90 transition-colors hover:bg-glass"
                     >
                       Maia Blog
-                    </Link>
+                    </Link>*/}
                     {/* <a
                       target="_blank"
                       rel="noreferrer"
@@ -361,7 +365,7 @@ export const Header: React.FC = () => {
                   height={40}
                   alt="Maia Logo"
                 />
-                <h2 className="text-2xl font-bold">Maia Chess</h2>
+                <h2 className="text-2xl font-bold">Play Chess</h2>
               </div>
             </Link>
             <button
@@ -382,7 +386,7 @@ export const Header: React.FC = () => {
                     startGame('againstMaia')
                   }}
                 >
-                  Play Maia
+                  Play Chess
                 </button>
                 <button
                   onClick={() => {
@@ -392,7 +396,7 @@ export const Header: React.FC = () => {
                 >
                   Play Hand and Brain
                 </button>
-                <a
+                {/* <a
                   href="https://lichess.org/@/maia1"
                   target="_blank"
                   rel="noreferrer"
@@ -410,7 +414,7 @@ export const Header: React.FC = () => {
             </Link>
             <Link href="/drills" className="uppercase">
               Drills
-            </Link>{*/
+            </Link>{/*
             <Link href="/turing" className="uppercase">
               Bot-or-not
             </Link>
@@ -422,7 +426,8 @@ export const Header: React.FC = () => {
             </Link>
             <Link href="/blog" className="uppercase">
               Maia Blog
-            </Link>
+            </Link>*/}
+            {/*
             <a
               target="_blank"
               rel="noreferrer"
@@ -431,8 +436,8 @@ export const Header: React.FC = () => {
               onClick={() => setShowMenu(false)}
             >
               Discord
-            </a>/*}
-            {/* <a
+            </a>
+            <a
               target="_blank"
               rel="noreferrer"
               href="https://twitch.tv/maiachess"
