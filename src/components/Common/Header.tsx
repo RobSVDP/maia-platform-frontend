@@ -344,7 +344,7 @@ export const Header: React.FC = () => {
             height={40}
             alt="Maia Logo"
           />
-          <h2 className="text-2xl font-bold">Maia Chess</h2>
+          <h2 className="text-2xl font-bold">Play Chess</h2>
         </div>
       </Link>
       <button
@@ -404,8 +404,10 @@ export const Header: React.FC = () => {
                 >
                   Play Maia on Lichess
                 </a>
+                */}
               </div>
             </div>
+            {/*
             <Link href="/analysis" className="uppercase">
               Analysis
             </Link>
