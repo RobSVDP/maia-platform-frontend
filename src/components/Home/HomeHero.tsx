@@ -204,8 +204,8 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
                   <span className="text-sm font-medium text-white/90 transition-colors duration-200 group-hover:text-white">
                     Lichess
                   </span>
-                </motion.button> */}
-                {/* <motion.button
+                </motion.button>
+                <motion.button
                   className="group flex items-center gap-2.5 rounded-md border border-glass-border bg-white/5 px-3 py-2 backdrop-blur-sm transition-all duration-200 hover:border-white/20 hover:bg-white/10"
                   onClick={() => {
                     trackLichessConnectionInitiated('homepage')
@@ -276,7 +276,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             />
           </div>
         </div>
-      {/*
+        {/*
         <motion.div className="flex flex-wrap justify-center gap-6 px-2">
           <p className="text-center text-base text-white/80">
             <AnimatedNumber
