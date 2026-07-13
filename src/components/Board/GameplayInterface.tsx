@@ -123,7 +123,7 @@ export const GameplayInterface: React.FC<React.PropsWithChildren<Props>> = (
     return result
   }, [availableMoves])
 
-  const maiaTitle = maiaVersion.replace('maia_kdd_', 'Maia ')
+  const maiaTitle = maiaVersion.replace('maia_kdd_', 'Gwammy ')
   const blackPlayer = player == 'black' ? user?.displayName : maiaTitle
   const whitePlayer = player == 'white' ? user?.displayName : maiaTitle
 
@@ -174,7 +174,7 @@ export const GameplayInterface: React.FC<React.PropsWithChildren<Props>> = (
                 type={playType}
                 title={
                   playType === 'againstMaia'
-                    ? 'Play vs. Maia'
+                    ? 'Play vs. Gwammy'
                     : 'Play Hand and Brain'
                 }
                 embedded
@@ -366,7 +366,7 @@ export const GameplayInterface: React.FC<React.PropsWithChildren<Props>> = (
   return (
     <>
       <Head>
-        <title>Maia Chess - Play</title>
+        <title>Play Chess</title>
         <meta name="description" content="Turing survey" />
       </Head>
       <TreeControllerContext.Provider
