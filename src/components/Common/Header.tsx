@@ -143,12 +143,12 @@ export const Header: React.FC = () => {
       <div className="flex flex-row items-center justify-start gap-6">
         <Link href="/" className="flex flex-row items-center gap-2">
           <Image
-            src="/maia-ios-icon.png"
-            width={40}
-            height={40}
+            src="/sheep-face-icon.png"
+            width={45}
+            height={45}
             alt="Maia Logo"
           />
-          <h2 className="text-2xl font-bold">Play Chess</h2>
+          {/*<h2 className="text-2xl font-bold">Play Chess</h2>*/}
         </Link>
         <div className="hidden flex-row items-center gap-1 text-sm tracking-wider md:flex">
           <div
@@ -339,12 +339,12 @@ export const Header: React.FC = () => {
       <Link href="/" passHref>
         <div className="flex flex-row items-center gap-2">
           <Image
-            src="/maia-ios-icon.png"
-            width={40}
-            height={40}
+            src="/sheep-face-icon.png"
+            width={45}
+            height={45}
             alt="Maia Logo"
           />
-          <h2 className="text-2xl font-bold">Play Chess</h2>
+          {/*<h2 className="text-2xl font-bold">Play Chess</h2>*/}
         </div>
       </Link>
       <button
@@ -407,7 +407,7 @@ export const Header: React.FC = () => {
                 */}
               </div>
             </div>
-            {/*
+            
             <Link href="/analysis" className="uppercase">
               Analysis
             </Link>
@@ -416,7 +416,8 @@ export const Header: React.FC = () => {
             </Link>
             <Link href="/drills" className="uppercase">
               Drills
-            </Link>{/*
+            </Link>
+            {/*
             <Link href="/turing" className="uppercase">
               Bot-or-not
             </Link>
