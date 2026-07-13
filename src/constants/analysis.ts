@@ -17,7 +17,7 @@ export const MOVE_CLASSIFICATION_THRESHOLDS = {
   GOOD_THRESHOLD: -0.05,
 } as const
 
-export const DEFAULT_MAIA_MODEL = 'maia_kdd_1500' as const
+export const DEFAULT_MAIA_MODEL = 'maia_kdd_600' as const
 export const MAIA_MIN_RATING = 600 as const
 export const MAIA_MAX_RATING = 2600 as const
 export const MIN_STOCKFISH_DEPTH = 12 as const
