@@ -95,7 +95,7 @@ export const Footer: React.FC = () => {
     },
   ]
   
-  {/*
+  /*
   return (
     <div className="flex w-full flex-col items-center justify-center py-4">
       <div className="flex w-[90%] flex-col items-start justify-center gap-6 bg-transparent md:items-center">
@@ -167,8 +167,7 @@ export const Footer: React.FC = () => {
       </div>
     </div>
   )
-  */}
+  */
   
-  return <div></div>
-  
+  return null
 }
