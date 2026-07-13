@@ -1,2 +1,2 @@
 export * from './HomeHero'
-export * from './Sections'
+{/*export * from './Sections'*/}
