@@ -170,7 +170,7 @@ function MaiaPlatform({ Component, pageProps }: AppProps) {
             <FeedbackButton />
           </div>
           <Toaster position="bottom-right" />
-          <Analytics />
+          {/*<Analytics />
           <Script async src="/analytics.js?id=G-SNP84LXLKY" />
           <Script id="analytics">
             {`
@@ -180,7 +180,7 @@ function MaiaPlatform({ Component, pageProps }: AppProps) {
 
             gtag('config', 'G-SNP84LXLKY');
           `}
-          </Script>
+          </Script>*/}
         </Compose>
       </TourContextProvider>
     </PostHogProvider>
