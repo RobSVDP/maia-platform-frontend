@@ -485,7 +485,7 @@ export const PlaySetupModal: React.FC<PlaySetupModalProps> = (
                 </div>
               </div>
 
-              <div>
+              <div className="hidden">
                 <div className="grid grid-cols-[auto,1fr] items-center gap-3">
                   <label
                     htmlFor="maia-timing-select"
