@@ -130,11 +130,9 @@ const Home: NextPage = () => {
             }}
           />
           <AdditionalFeaturesSection id="more-features" />
-        </div>*/}
-        {/*
+        </div>
         <AboutMaia />
-        */}
-      </div>
+      </div>*/}
     </>
   )
 }
