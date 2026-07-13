@@ -81,7 +81,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Maia Chess</title>
+        <title>Play Chess</title>
         <meta
           name="description"
           content="Maia is a neural network chess model that captures human style. Go beyond perfect engine lines by analyzing games with real-world context, training with curated puzzles, and seeing what players at higher rating levels actually do in every position."
@@ -139,7 +139,9 @@ const Home: NextPage = () => {
           <AdditionalFeaturesSection id="more-features" />
         </div>
 
+        /*
         <AboutMaia />
+        */
       </div>
     </>
   )
