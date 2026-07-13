@@ -89,9 +89,8 @@ const Home: NextPage = () => {
       </Head>
       <HomeHero scrollHandler={scrollHandler} />
       <GameCarousel />
-      <PageNavigation />
+      {/*<PageNavigation />
       <div ref={featuresRef}>
-        {/* Play Section with subtle radial overlays */}
         <div className="relative bg-transparent">
           <div
             className="pointer-events-none absolute inset-0"
@@ -102,8 +101,6 @@ const Home: NextPage = () => {
           />
           <PlaySection id="play-section" />
         </div>
-
-        {/* Analysis Section with mirrored edge glows */}
         <div className="relative bg-transparent">
           <div
             className="pointer-events-none absolute inset-0"
@@ -114,8 +111,6 @@ const Home: NextPage = () => {
           />
           <AnalysisSection id="analysis-section" />
         </div>
-
-        {/* Train Section with lower-edge emphasis */}
         <div className="relative bg-transparent">
           <div
             className="pointer-events-none absolute inset-0"
@@ -126,8 +121,6 @@ const Home: NextPage = () => {
           />
           <TrainSection id="train-section" />
         </div>
-
-        {/* Additional Features with diagonal accents */}
         <div className="relative bg-transparent">
           <div
             className="pointer-events-none absolute inset-0"
@@ -137,8 +130,7 @@ const Home: NextPage = () => {
             }}
           />
           <AdditionalFeaturesSection id="more-features" />
-        </div>
-
+        </div>*/}
         {/*
         <AboutMaia />
         */}
