@@ -274,6 +274,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             />
           </div>
         </div>
+      {/*
         <motion.div className="flex flex-wrap justify-center gap-6 px-2">
           <p className="text-center text-base text-white/80">
             <AnimatedNumber
@@ -297,6 +298,7 @@ export const HomeHero: React.FC<Props> = ({ scrollHandler }: Props) => {
             turing games played
           </p>
         </motion.div>
+        */}
       </div>
     </Fragment>
   )
