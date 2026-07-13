@@ -94,9 +94,9 @@ export const Footer: React.FC = () => {
       ],
     },
   ]
+  
   {/*
   return (
-    
     <div className="flex w-full flex-col items-center justify-center py-4">
       <div className="flex w-[90%] flex-col items-start justify-center gap-6 bg-transparent md:items-center">
         <div className="mx-auto mt-1 flex w-full select-none items-center gap-7">
@@ -168,5 +168,7 @@ export const Footer: React.FC = () => {
     </div>
   )
   */}
-  return (<div></div>)
+  
+  return <div></div>
+  
 }
