@@ -87,7 +87,7 @@ export const PlayControls: React.FC<Props> = ({
             <div className="bg-transparent px-4 py-2">
               <div className="flex flex-col gap-2">
                 <p className="text-center text-xs font-medium uppercase tracking-wider text-white/70">
-                  Maia Thinking Time
+                  Thinking Time
                 </p>
                 <div className="flex overflow-hidden rounded-md border border-glass-border bg-glass">
                   <button
