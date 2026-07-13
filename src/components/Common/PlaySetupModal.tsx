@@ -153,13 +153,13 @@ export const PlaySetupModal: React.FC<PlaySetupModalProps> = (
   const modalTitle =
     props.modalTitle ||
     (props.playType == 'againstMaia'
-      ? 'Play Against Maia'
+      ? 'Play Against Gwammy'
       : 'Play Hand and Brain')
   const modalSubtitle =
     props.modalSubtitle ||
     (props.playType == 'againstMaia'
       ? 'Configure your game settings and choose your side'
-      : 'Team up with Maia in Hand and Brain chess')
+      : 'Team up with Gwammy in Hand and Brain chess')
 
   const handlePresetSelect = useCallback((preset: TimeControl) => {
     setTimeControl(preset)
@@ -352,15 +352,15 @@ export const PlaySetupModal: React.FC<PlaySetupModalProps> = (
                       >
                         {maiaOptions.map((maia) => (
                           <option key={`partner_${maia}`} value={maia}>
-                            {maia.replace('maia_kdd_', 'Maia ')}
+                            {maia.replace('maia_kdd_', 'Gwammy ')}
                           </option>
                         ))}
                       </select>
                     </div>
                     <p className="mt-0.5 text-xxs leading-tight text-secondary">
                       {isBrain
-                        ? `${maiaPartnerVersion.replace('maia_kdd_', 'Maia ')} is your Hand and will make the move on the board.`
-                        : `${maiaPartnerVersion.replace('maia_kdd_', 'Maia ')} is your Brain and will choose which piece type must be moved.`}
+                        ? `${maiaPartnerVersion.replace('maia_kdd_', 'Gwammy ')} is your Hand and will make the move on the board.`
+                        : `${maiaPartnerVersion.replace('maia_kdd_', 'Gwammy ')} is your Brain and will choose which piece type must be moved.`}
                     </p>
                   </div>
                 </>
@@ -382,7 +382,7 @@ export const PlaySetupModal: React.FC<PlaySetupModalProps> = (
                   >
                     {maiaOptions.map((maia) => (
                       <option key={`opponent_${maia}`} value={maia}>
-                        {maia.replace('maia_kdd_', 'Maia ')}
+                        {maia.replace('maia_kdd_', 'Gwammy ')}
                       </option>
                     ))}
                   </select>
@@ -491,7 +491,7 @@ export const PlaySetupModal: React.FC<PlaySetupModalProps> = (
                     htmlFor="maia-timing-select"
                     className="whitespace-nowrap text-sm font-medium text-primary"
                   >
-                    Maia thinking time:
+                    Thinking time:
                   </label>
                   <div id="maia-timing-select" className="min-w-0">
                     <OptionSelect
