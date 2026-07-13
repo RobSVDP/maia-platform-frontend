@@ -410,7 +410,7 @@ export const Header: React.FC = () => {
             </Link>
             <Link href="/drills" className="uppercase">
               Drills
-            </Link>
+            </Link>{*/
             <Link href="/turing" className="uppercase">
               Bot-or-not
             </Link>
@@ -431,7 +431,7 @@ export const Header: React.FC = () => {
               onClick={() => setShowMenu(false)}
             >
               Discord
-            </a>
+            </a>/*}
             {/* <a
               target="_blank"
               rel="noreferrer"
