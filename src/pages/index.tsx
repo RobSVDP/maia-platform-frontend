@@ -139,9 +139,9 @@ const Home: NextPage = () => {
           <AdditionalFeaturesSection id="more-features" />
         </div>
 
-        /*
+        {/*
         <AboutMaia />
-        */
+        */}
       </div>
     </>
   )
